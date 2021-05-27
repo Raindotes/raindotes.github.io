@@ -641,7 +641,7 @@ var bronzeQuotes = [
 		["Ah, that's what I'm talking about!"], //Batrider
 		["Sic 'Em!"], //Beastmaster
 		["So much blood."], //Bloodseeker
-		["Ah ha ha ha ha ha ha ha ha."], //Bounty Hunter
+		["I'm rich!"], //Bounty Hunter
 		["Ah, I love you guys."], //Brewmaster
 		["Bright and breezy."], //Bristleback
 		["What a lovely brood."], //Broodmother
@@ -656,14 +656,14 @@ var bronzeQuotes = [
 		["Thank you, you precious weak thing."], //Dawnbreaker
 		["Oh, what a beauty!"], //Dazzle
 		["Oh ah ha ha ha ha ha ho ho haa! Ha ha ha ha ha ha!"], //Death Prophet
-		["Heheha."], //Disruptor
-		["Heheh heh hah heh hah hah hah."], //Doom
-		["Tehh, heh he huh heh heh huh."], //Dragon Knight
-		["Ah ha ha ha ha ha ha ha ha ha ha ha ha ha!"], //Drow Ranger
+		["I'm ecstatic!"], //Disruptor
+		["Where the hell did I go?"], //Doom
+		["Who calls the dragon knight?"], //Dragon Knight
+		["Silly doe."], //Drow Ranger
 		["You rock."], //Earth Spirit
 		["Let's shake things up!"], //Earthshaker
-		["Eh ha ha ha ha ha."], //Elder Titan
-		["Eh he he he he he!"], //Ember Spirit
+		["Better you run and hide."], //Elder Titan
+		["That was a burn."], //Ember Spirit
 		["I love winning!"], //Enchantress
 		["He-he-huh-heh-heh."], //Enigma
 		["Heh heh hah ha hah heh heah heh."], //Faceless Void
@@ -684,7 +684,7 @@ var bronzeQuotes = [
 		["That was hot!"], //Lina
 		["Oh, hell yes."], //Lion
 		["Skill comes with age!"], //Lone Druid
-		["Ah ha ha ha ha ha ha!"], //Luna
+		["Scratch that idea!"], //Luna
 		["You fought well and true."], //Lycan
 		["Yes, this will do just fine."], //Magnus
 		["My thanks will come later, when you least expect it."], //Mars
@@ -696,20 +696,20 @@ var bronzeQuotes = [
 		["That went swimmingly."], //Naga Siren
 		["Admirable."], //Nature's Prophet
 		["Breathe it in."], //Necrophos
-		["Heh heh heh hah heh hehhhh."], //Night Stalker
+		["I die a little every morning."], //Night Stalker
 		["Nice."], //Nyx Assassin
 		["That was skill all right. Pure skill."], //Ogre Magi
 		["Beautiful."], //Omniknight
-		["He ha ha he ha ha!"], //Oracle
+		["Well of course we won."], //Oracle
 		["I have solid intelligence on what is to come."], //Outworld Devourer
 		["Was that intentional? It looked intentional."], //Pangolier
-		["Ho ho ho ho ho ha ha ha!"], //Phantom Assassin
+		["I see you!"], //Phantom Assassin
 		["What an amazing thing!"], //Phantom Lancer
 		["Thankful Squawk"], //Phoenix
-		["Ha ha!"], //Puck
+		["I do enjoy an occasional blink."], //Puck
 		["That's a bit of all right."], //Pudge
 		["Ah, this is going to be good."], //Pugna
-		["Uh ha ha ha ha ha ha ha ha ha ha ha!"], //Queen of Pain
+		["Time for some roleplay."], //Queen of Pain
 		["I sense a connection between us!"], //Razor
 		["Contract complete."], //Riki
 		["Excellent idea!"], //Rubick
@@ -718,8 +718,8 @@ var bronzeQuotes = [
 		["Well bless your soul."], //Shadow Fiend
 		["My prayers are answered."], //Shadow Shaman
 		["You almost had that."], //Silencer
-		["Ha ha!"], //Skywrath Mage
-		["Heh heeh heh hah hah ha hah hah!"], //Slardar
+		["I think you will remember me now, eh?"], //Skywrath Mage
+		["You let your guard down."], //Slardar
 		["I know I can trust you guys."], //Slark
 		["Why thank you!"], //Snapfire
 		["Hee hee hee hee hee hee hee hee hee hee!"], //Sniper
@@ -728,7 +728,7 @@ var bronzeQuotes = [
 		["That's the spirit!"], //Storm Spirit
 		["You are a true friend."], //Sven
 		["Fun! Huhuhu!"], //Techies
-		["Ha ha ha ha ha ha ha!"], //Templar Assassin
+		["Well that's it. The secret is out!"], //Templar Assassin
 		["What a handsome devil."], //Terrorblade
 		["We'll turn this tide to our advantage."], //Tidehunter
 		["I almost trust you."], //Timbersaw
@@ -738,17 +738,17 @@ var bronzeQuotes = [
 		["Go crazy!"], //Troll Warlord
 		["Fist bump!"], //Tusk
 		["I do not thank."], //Underlord
-		["Heh heh heh heh ha ha ha ha ha ha ha ha ha ha!"], //Undying
-		["Hah! Hah! Hah-hah-hah!"], //Ursa
+		["Yogurt."], //Undying
+		["Your cubs are orphaned now."], //Ursa
 		["So sweet..."], //Vengeful Spirit
 		["Plague our enemies!"], //Venomancer
 		["Air support arrives."], //Viper
-		["Ah ha ha ha ha ha ha ha ha!"], //Visage
+		["Your torment ends."], //Visage
 		["This pleases me to no end."], //Void Spirit
 		["Curse that blade!"], //Warlock
 		["The pattern is complete."], //Weaver
 		["Easy breezy."], //Windranger
-		["Ah ha ha ha ha ha ha ha ha ha ha!"], //Winter Wyvern
+		["Have patience, child."], //Winter Wyvern
 		["Feeling good, man."], //Witch Doctor
 		["I'LL HELP MY WEAK AND PUNY ALLIES WHERE I CAN."], //Wraith King
 		["By my whiskers, that's good stuff!"] //Zeus
