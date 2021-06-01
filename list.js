@@ -26,7 +26,7 @@ var heroNames = [
 		["dawnbreaker", "valora", "dawn", "db", "hammermommy", "thighs"],
 		["dazzle", "dazz", "shadowpriest"],
 		["death_prophet", "deathprophet", "dp", "krobe", "krobelus"],
-		["disruptor", "disraptor", "thrall"],
+		["disruptor", "disraptor", "thrall", "disrupter"],
 		["doom", "doombringer"],
 		["dragon_knight", "dragonknight", "dk", "davion"],
 		["drow_ranger", "drowranger", "drow", "trax", "traxex"],
