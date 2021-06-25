@@ -75,7 +75,7 @@ var heroNames = [
 		["pangolier", "pango"],
 		["phantom_assassin", "phantomassassin", "pa", "mortred"],
 		["phantom_lancer", "phantomlancer", "pl", "azwraith"],
-		["phoenix", "phx", "bird", "birb"],
+		["phoenix", "phx", "ph", "bird", "birb"],
 		["puck", "faeriedragon"],
 		["pudge", "pudka", "butcher"],
 		["pugna", "pug"],
