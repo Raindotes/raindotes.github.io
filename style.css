@@ -110,7 +110,7 @@ h3 a:link {
 
 tr {
   /* Add a bottom border to all table rows */
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #000;
 }
 
 th {
