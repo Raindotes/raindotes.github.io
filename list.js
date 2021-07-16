@@ -4,7 +4,7 @@ var heroNames = [
 		["alchemist", "alc", "razzil", "alch"],
 		["ancient_apparition", "ancientapparition", "ancientapprition", "aa", "kaldr"],
 		["antimage", "am", "magina"],
-		["wei", "ampersona", "antimagepersona", "persona"],
+		["wei", "ampersona", "antimagepersona"],
 		["arc_warden", "arcwarden", "aw", "arc", "warden", "zet"],
 		["axe", "mogulkhan"],
 		["bane", "atropos"],
@@ -28,7 +28,8 @@ var heroNames = [
 		["death_prophet", "deathprophet", "dp", "krobe", "krobelus"],
 		["disruptor", "disraptor", "thrall", "disrupter"],
 		["doom", "doombringer"],
-		["dragon_knight", "dragonknight", "dk", "davion"],
+		["dragon_knight", "dragonknight", "dk"],
+		["davion", "slyrak", "dkpersona"],
 		["drow_ranger", "drowranger", "drow", "trax", "traxex"],
 		["earth_spirit", "earthspirit", "kaolin", "earth"],
 		["earthshaker", "shaker", "raigor", "es"],
@@ -155,6 +156,7 @@ var masterQuotes = [
 		["I call down the thunder."], //Disruptor
 		["All hell's broken loose."], //Doom
 		["Face the knight, face the dragon."], //Dragon Knight
+		["You whine like a dragon knight."], //Davion
 		["Now that you're dead, I find it easy to respect you."], //Drow Ranger
 		["Who dares face me now."], //Earth Spirit
 		["There may be many earths, but there's only one Earthshaker."], //Earthshaker
@@ -281,6 +283,7 @@ var platinumQuotes = [
 		["Did I interrupt you?"], //Disruptor
 		["Hemmehm, you were lucky this time."], //Doom
 		["Of course."], //Dragon Knight
+		["Stop. Just... stop."], //Davion
 		["This couldn't have ended any other way."], //Drow Ranger
 		["Really? Really?"], //Earth Spirit
 		["It was getting far too crowded."], //Earthshaker
@@ -291,7 +294,7 @@ var platinumQuotes = [
 		["I may be faceless, but I'm not maceless."], //Faceless Void
 		["You've a mind like a child."], //Grimstroke
 		["That'll learn ya!"], //Gyrocopter
-		["Time to die!"], //Hoodwinked
+		["Time to die!"], //Hoodwink
 		["Is that all?"], //Huskar
 		["Profitable engagement."], //Invoker
 		["Angry Beeps"], //Io
@@ -407,6 +410,7 @@ var goldQuotes = [
 		["They're trying to kill me!"], //Disruptor
 		["Oh, crap."], //Doom
 		["I'll take that."], //Dragon Knight
+		["I should probably learn from that."], //Davion
 		["Amateur."], //Drow Ranger
 		["Perfect timing."], //Earth Spirit
 		["Slammin'...?"], //Earthshaker
@@ -533,6 +537,7 @@ var silverQuotes = [
 		["What weathermancery is this?"], //Disruptor
 		["He he heh heh he, handsome devil, aren't I?"], //Doom
 		["Just what I've been waiting for."], //Dragon Knight
+		["Explain how this works again."], //Davion
 		["You'll have to do better than that!"], //Drow Ranger
 		["Yes, I just did that."], //Earth Spirit
 		["It was your own damn fault."], //Earthshaker
@@ -659,6 +664,7 @@ var bronzeQuotes = [
 		["I'm ecstatic!"], //Disruptor
 		["Where the hell did I go?"], //Doom
 		["Who calls the dragon knight?"], //Dragon Knight
+		["So much for the element of surprise."], //Davion
 		["Silly doe."], //Drow Ranger
 		["You rock."], //Earth Spirit
 		["Let's shake things up!"], //Earthshaker
@@ -785,6 +791,7 @@ var grandmasterQuotes = [
 		["Feeling under the weather?"], //Disruptor
 		["Mess with Doom, you get the horns."], //Doom
 		["Never make a deal with a dragon, unless you're prepared to keep your end of it."], //Dragon Knight
+		["Do you love me?"], //Davion
 		["I thought they warned you not to speak with rangers."], //Drow Ranger
 		["You are learned in the ways of dying."], //Earth Spirit
 		["Don't take that magnitude with me."], //Earthshaker
@@ -911,6 +918,7 @@ var bonusQuotes = [
 		["Wait, what? I'm dead?"], //Disruptor
 		["Storm Spirit, shut up."], //Doom
 		["Welcome to the dead of night."], //Dragon Knight
+		["Why do they call it a sheep stick?"], //Davion
 		["I found a secret."], //Drow Ranger
 		["Such a disappointment."], //Earth Spirit
 		["Chaos Dunk!"], //Earthshaker
