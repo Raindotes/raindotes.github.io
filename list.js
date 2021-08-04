@@ -47,7 +47,7 @@ var heroNames = [
 		["jakiro", "jak", "thd"],
 		["juggernaut", "jugg", "yunero"],
 		["keeper_of_the_light", "keeperofthelight", "kotl", "ezalor", "keeper"],
-		["kunkka", "admiral"],
+		["kunkka", "kunka", "admiral"],
 		["legion_commander", "legioncommander", "legioncomander", "legion", "lc"],
 		["leshrac", "lesh"],
 		["lich"],
