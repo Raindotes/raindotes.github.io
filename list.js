@@ -42,7 +42,8 @@ var heroNames = [
 		["gyrocopter", "gyro", "aurel"],
 		["hoodwink", "hood", "hoo"],
 		["huskar", "husk"],
-		["invoker", "voker", "carl", "arsenalmagus"],
+		["invoker", "voker", "arsenalmagus"],
+		["kid_invoker", "kid", "acolyte", "carl", "invokerpersona"],
 		["io", "wisp"],
 		["jakiro", "jak", "thd"],
 		["juggernaut", "jugg", "yunero"],
@@ -170,6 +171,7 @@ var masterQuotes = [
 		["Sleep tight little guy."], //Hoodwink
 		["You gave all you could give but it was not enough."], //Huskar
 		["Glorious invocation!"], //Invoker
+		["Morons! I'm surrounded by morons!"], //Kid Invoker
 		["Meditative Beeps"], //Io
 		["That was cold blooded."], //Jakiro
 		["Mmm, snazzy."], //Juggernaut
@@ -297,6 +299,7 @@ var platinumQuotes = [
 		["Time to die!"], //Hoodwink
 		["Is that all?"], //Huskar
 		["Profitable engagement."], //Invoker
+		["That's the end of your sparkle motion!"], // Kid Invoker
 		["Angry Beeps"], //Io
 		["We are not amused."], //Jakiro
 		["There's a fine line between bravery and stupidity."], //Juggernaut
@@ -424,6 +427,7 @@ var goldQuotes = [
 		["Starting to feel a bit nutty."], //Hoodwink
 		["My life now has meaning!"], //Huskar
 		["Fight me!"], //Invoker
+		["Yep... 'bout what I expected."], //Kid Invoker
 		["Triumphant Beeps"], //Io
 		["We'll see about that."], //Jakiro
 		["I'll be back to finish this later."], //Juggernaut
@@ -551,6 +555,7 @@ var silverQuotes = [
 		["Caught ya in your stubbies did we?"], //Hoodwink
 		["Another life squandered."], //Huskar
 		["One of my favorites!"], //Invoker
+		["Oh man, that was gross!"], //Kid Invoker
 		["Denying Beeps"], //Io
 		["Burninated."], //Jakiro
 		["You will be forever alone."], //Juggernaut
@@ -678,6 +683,7 @@ var bronzeQuotes = [
 		["Proper skux."], //Hoodwink
 		["Ahh, this will please the gods."], //Huskar
 		["Ha ha ha ha ha ha ha ha ha ha!"], //Invoker
+		["That... seems wrong."], //Kid Invoker
 		["Thankful Beeps"], //Io
 		["Ha ha ha ha ha ha ha ha ha ha ha!"], //Jakiro
 		["Oh... that's nice."], //Juggernaut
@@ -805,6 +811,7 @@ var grandmasterQuotes = [
 		["Catch ya later dingleberry!"], //Hoodwink
 		["Offering accepted."], //Huskar
 		["I am a beacon of knowledge blazing out across a black sea of ignorance!"], //Invoker
+		["Get wrecked!"], //Kid Invoker
 		["Ominous Beeps"], //Io
 		["Hot damn."], //Jakiro
 		["How many blades am I holding up?"], //Juggernaut
@@ -932,6 +939,7 @@ var bonusQuotes = [
 		["Everybody's laughing, everybody's happy."], //Hoodwink
 		["Blink and I'll cut you."], //Huskar
 		["Behold the meatball!"], //Invoker
+		["Everyone... kinda hates me. Do I turn into a real jerk or something?"], //Kid Invoker
 		["Aegisy Beeps"], //Io
 		["This changes everything."], //Jakiro
 		["I'm the Juggernaut, bitch!"], //Juggernaut
