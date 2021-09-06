@@ -43,7 +43,7 @@ var heroNames = [
 		["hoodwink", "hood", "hoo"],
 		["huskar", "husk"],
 		["invoker", "voker", "arsenalmagus"],
-		["kid_invoker", "kid", "acolyte", "carl", "invokerpersona"],
+		["kid_invoker", "kidinvoker", "kid", "acolyte", "carl", "invokerpersona"],
 		["io", "wisp"],
 		["jakiro", "jak", "thd"],
 		["juggernaut", "jugg", "yunero"],
