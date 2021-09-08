@@ -644,7 +644,7 @@ var bronzeQuotes = [
 		["We've got pretty good chemistry."], //Alc
 		["Interesting."], //AA
 		["Ha ha ha ha ha ha ha ha ha ha ha ha!"], //AM
-		["Neh hah ha ha ha haa."], //AM Persona
+		["Uh, that was louder than I thought it would be."], //AM Persona
 		["Your grace is noted."], //Arc
 		["Axe likes this very much."], //Axe
 		["You're so nice."], //Bane
