@@ -703,7 +703,7 @@ var bronzeQuotes = [
 		["Brilliant."], //Medusa
 		["Hnya Hnyahnyaha ha ha ha!"], //Meepo
 		["Ha ha ha ha ha ha!"], //Mirana
-		["Ah ha ha ha ha ha. Woohoohoohoo. Ohhh heee."], //Monkey King
+		["I need no introduction!"], //Monkey King
 		["I like what I see."], //Morphling
 		["That went swimmingly."], //Naga Siren
 		["Admirable."], //Nature's Prophet
