@@ -59,6 +59,7 @@ var heroNames = [
 		["luna", "moonrider"],
 		["lycan", "lycanthrope", "banehollow", "wolf"],
 		["magnus", "magnataur", "mag"],
+		["marci", "marcy", "bestgirl"],
 		["mars"],
 		["medusa", "dusa", "gorgon"],
 		["meepo"],
@@ -187,6 +188,7 @@ var masterQuotes = [
 		["Let the sky tear down the unworthy!"], //Luna
 		["I've taken a Lycan to you. Ha ha ha ha ha."], //Lycan
 		["I tell you what. You touch my horn, I break your face."], //Magnus
+		["Sad Whistle"], //Marci
 		["THIS IS DOOOOTAAAAA!"], //Mars
 		["Gaze upon Medusa's beauty, and despair!"], //Medusa
 		["Freakin' unbelievable."], //Meepo
@@ -315,6 +317,7 @@ var platinumQuotes = [
 		["Piece of shite wizard."], //Luna
 		["Wolves need no armor."], //Lycan
 		["How shameful."], //Magnus
+		["Mildly Impressed Whistle"], //Marci
 		["DADADA DA DA DA-DA-DA! DADADA DA DA DA-DA-DA!"], //Mars
 		["Nobody look at anybody!"], //Medusa
 		["I feel fine. Don't know what everyone's worried about."], //Meepo
@@ -443,6 +446,7 @@ var goldQuotes = [
 		["Isn't that a pretty thing!"], //Luna
 		["The wolf is at your door."], //Lycan
 		["This is bullshit!"], //Magnus
+		["Greetings Whistle"], //Marci
 		["The only one surprised by this is you."], //Mars
 		["You knew I was cold-blooded."], //Medusa
 		["This is a real freakin' embarrasment."], //Meepo
@@ -571,6 +575,7 @@ var silverQuotes = [
 		["Interesting!"], //Luna
 		["Go ahead, just try to kill me!"], //Lycan
 		["Are you kidding me?"], //Magnus
+		["Denying Whistle"], //Marci
 		["Ha ha ha! I'll always remember how foolish you looked..."], //Mars
 		["In your face."], //Medusa
 		["How ya doin?"], //Meepo
@@ -699,6 +704,7 @@ var bronzeQuotes = [
 		["Scratch that idea!"], //Luna
 		["You fought well and true."], //Lycan
 		["Yes, this will do just fine."], //Magnus
+		["Laughing Whistle"], //Marci
 		["My thanks will come later, when you least expect it."], //Mars
 		["Brilliant."], //Medusa
 		["Hnya Hnyahnyaha ha ha ha!"], //Meepo
@@ -827,6 +833,7 @@ var grandmasterQuotes = [
 		["Poor wee thing."], //Luna
 		["Tasty morsel."], //Lycan
 		["Was there ever any doubt?"], //Magnus
+		["Impressed Whistle"], //Marci
 		["WITNESS MEEEE!"], //Mars
 		["Whatever will I do with you?"], //Medusa
 		["I guess size ain't everything, eh? Eh!? Ha ha ha aww it is."], //Meepo
@@ -955,6 +962,7 @@ var bonusQuotes = [
 		["Pathetic."], //Luna
 		["Run with me brother."], //Lycan
 		["Where are you going?"], //Magnus
+		["Spicy Whistle"], //Marci
 		["FIIIGHT MEEE!"], //Mars
 		["How does failure taste?"], //Medusa
 		["Oh now that's what I'm talking about!"], //Meepo
@@ -978,7 +986,7 @@ var bonusQuotes = [
 		["First Blood! Have I got juice on me chins?"], //Pudge
 		["I'll bet you feel like a fool."], //Pugna
 		["It feels so good to be bad."], //Queen of Pain
-		["This will come as a shock!"], //Razor
+		["You are dead. Dead."], //Razor
 		["It says right in my contract, no refunds."], //Riki
 		["Ha! That was terrible."], //Rubick
 		["What? You don't enjoy my dry wit?"], //Sand King
