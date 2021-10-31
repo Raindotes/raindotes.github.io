@@ -1039,7 +1039,7 @@ var otherNames = [
 		["lakad", "lakadmatatag", "normalin"],
 		["woo", "comingthrough"],
 		["holy_moly", "holymoly", "holy"],
-		["questionable"],
+		["questionable", "thatwasquestionable"],
 		["no_chill", "nochill", "chill"],
 		["baby", "candy", "candyfromababy"]
 		];
