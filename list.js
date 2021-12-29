@@ -159,8 +159,8 @@ var masterQuotes = [
 		["I call down the thunder."], //Disruptor
 		["All hell's broken loose."], //Doom
 		["Face the knight, face the dragon."], //Dragon Knight
-		["You whine like a dragon knight."], //Davion
-		[""], //Slyrak
+		["Oh you love to see it."], //Davion
+		["You whine like a dragon knight."], //Slyrak
 		["Now that you're dead, I find it easy to respect you."], //Drow Ranger
 		["Who dares face me now."], //Earth Spirit
 		["There may be many earths, but there's only one Earthshaker."], //Earthshaker
@@ -290,7 +290,7 @@ var platinumQuotes = [
 		["Hemmehm, you were lucky this time."], //Doom
 		["Of course."], //Dragon Knight
 		["Stop. Just... stop."], //Davion
-		[""], //Slyrak
+		["Are you afraid?"], //Slyrak
 		["This couldn't have ended any other way."], //Drow Ranger
 		["Really? Really?"], //Earth Spirit
 		["It was getting far too crowded."], //Earthshaker
@@ -420,7 +420,7 @@ var goldQuotes = [
 		["Oh, crap."], //Doom
 		["I'll take that."], //Dragon Knight
 		["I should probably learn from that."], //Davion
-		[""], //Slyrak
+		["You understood nothing."], //Slyrak
 		["Amateur."], //Drow Ranger
 		["Perfect timing."], //Earth Spirit
 		["Slammin'...?"], //Earthshaker
@@ -550,7 +550,7 @@ var silverQuotes = [
 		["He he heh heh he, handsome devil, aren't I?"], //Doom
 		["Just what I've been waiting for."], //Dragon Knight
 		["Explain how this works again."], //Davion
-		[""], //Slyrak
+		["Pathetic."], //Slyrak
 		["You'll have to do better than that!"], //Drow Ranger
 		["Yes, I just did that."], //Earth Spirit
 		["It was your own damn fault."], //Earthshaker
@@ -680,7 +680,7 @@ var bronzeQuotes = [
 		["Where the hell did I go?"], //Doom
 		["Who calls the dragon knight?"], //Dragon Knight
 		["So much for the element of surprise."], //Davion
-		[""], //Slyrak
+		["Well done..."], //Slyrak
 		["Silly doe."], //Drow Ranger
 		["You rock."], //Earth Spirit
 		["Let's shake things up!"], //Earthshaker
@@ -810,7 +810,7 @@ var grandmasterQuotes = [
 		["Mess with Doom, you get the horns."], //Doom
 		["Never make a deal with a dragon, unless you're prepared to keep your end of it."], //Dragon Knight
 		["Do you love me?"], //Davion
-		[""], //Slyrak
+		["Run little mouse."], //Slyrak
 		["I thought they warned you not to speak with rangers."], //Drow Ranger
 		["You are learned in the ways of dying."], //Earth Spirit
 		["Don't take that magnitude with me."], //Earthshaker
@@ -940,7 +940,7 @@ var bonusQuotes = [
 		["Storm Spirit, shut up."], //Doom
 		["Welcome to the dead of night."], //Dragon Knight
 		["Why do they call it a sheep stick?"], //Davion
-		[""], //Slyrak
+		["What transpires in that tiny brain?"], //Slyrak
 		["I found a secret."], //Drow Ranger
 		["Such a disappointment."], //Earth Spirit
 		["Chaos Dunk!"], //Earthshaker
