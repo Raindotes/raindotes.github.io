@@ -30,7 +30,7 @@ var heroNames = [
 		["doom", "doombringer"],
 		["dragon_knight", "dragonknight", "dk"],
 		["davion"],
-		["slyrak"],
+		["slyrak", "slyrack", "sly"],
 		["drow_ranger", "drowranger", "drow", "trax", "traxex"],
 		["earth_spirit", "earthspirit", "kaolin", "earth"],
 		["earthshaker", "shaker", "raigor", "es"],
@@ -1049,7 +1049,9 @@ var otherNames = [
 		["holy_moly", "holymoly", "holy"],
 		["questionable", "thatwasquestionable"],
 		["no_chill", "nochill", "chill"],
-		["baby", "candy", "candyfromababy"]
+		["baby", "candy", "candyfromababy"],
+		["good", "surprisinglygood"],
+		["oh_well", "ohwell", "noo", "no"]
 		];
 
 var otherQuotes = [
@@ -1063,7 +1065,9 @@ var otherQuotes = [
 		["Holy Moly!"], //Holy Moly
 		["I... uh... That was questionable at the... at the best."], //Questionable
 		["This guy has no chill!"], //No Chill
-		["Like stealing candy from a baby... A no longer living baby."] //Candy
+		["Like stealing candy from a baby... A no longer living baby."], //Candy
+		["Good, good! Surprisingly good!"], //Good
+		["Noooooo! Oh well."] //Oh Well
 		];
 
 var div = document.createElement('div');
