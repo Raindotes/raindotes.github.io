@@ -736,7 +736,7 @@ quotes['bronze'] = [
 		["That's a bit of all right."], //Pudge
 		["Ah, this is going to be good."], //Pugna
 		["Time for some roleplay."], //Queen of Pain
-		["I sense a connection between us!"], //Razor
+		["You are dead. Dead."], //Razor
 		["Contract complete."], //Riki
 		["Excellent idea!"], //Rubick
 		["You have done a great service."], //Sand King
