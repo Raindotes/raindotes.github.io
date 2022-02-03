@@ -93,12 +93,10 @@ for(var i=1;i<heroNames.length;i++){
 	copycell = document.createElement('td'),
 	copycell.innerHTML = addCopycell(i, "gm"),
 	firstRow.appendChild(copycell);
-	
 	//Grandmaster Quotes
 	td = document.createElement('td'),
 	td.innerHTML = addQuotecell(i, "grandmaster"),
 	firstRow.appendChild(td);
-	
 	//Alternate hero names on first row
 	altNames = document.createElement('td');
 	var cleanNames = heroNames[i].join(),
@@ -114,12 +112,10 @@ for(var i=1;i<heroNames.length;i++){
 	copycell = document.createElement('td'),
 	copycell.innerHTML = addCopycell(i, "master"),
 	secondRow.appendChild(copycell);
-	
 	//Master Quotes
 	td = document.createElement('td'),
 	td.innerHTML = addQuotecell(i, "master"),
 	secondRow.appendChild(td);
-	
 	//Blank TD
 	td = document.createElement('td'),
 	blanktd = document.createElement('td'),
@@ -133,12 +129,10 @@ for(var i=1;i<heroNames.length;i++){
 	copycell = document.createElement('td'),
 	copycell.innerHTML = addCopycell(i, "plat"),
 	thirdRow.appendChild(copycell);
-	
 	//Platinum Quotes
 	td = document.createElement('td'),
 	td.innerHTML = addQuotecell(i, "platinum"),
 	thirdRow.appendChild(td);
-	
 	//Blank TD
 	td = document.createElement('td'),
 	blanktd = document.createElement('td'),
@@ -152,12 +146,10 @@ for(var i=1;i<heroNames.length;i++){
 	copycell = document.createElement('td'),
 	copycell.innerHTML = addCopycell(i, "gold"),
 	fourthRow.appendChild(copycell);
-	
 	//Gold Quotes
 	td = document.createElement('td'),
 	td.innerHTML = addQuotecell(i, "gold"),
 	fourthRow.appendChild(td);
-	
 	//Blank TD
 	td = document.createElement('td'),
 	blanktd = document.createElement('td'),
@@ -171,12 +163,10 @@ for(var i=1;i<heroNames.length;i++){
 	copycell = document.createElement('td'),
 	copycell.innerHTML = addCopycell(i, "silver"),
 	fifthRow.appendChild(copycell);
-	
 	//Silver Quotes
 	td = document.createElement('td'),
 	td.innerHTML = addQuotecell(i, "silver"),
 	fifthRow.appendChild(td);
-	
 	//Blank TD
 	td = document.createElement('td'),
 	blanktd = document.createElement('td'),
@@ -190,12 +180,10 @@ for(var i=1;i<heroNames.length;i++){
 	copycell = document.createElement('td'),
 	copycell.innerHTML = addCopycell(i, "bronze"),
 	sixthRow.appendChild(copycell);
-	
 	//Bronze Quotes
 	copycell = document.createElement('td'),
 	td.innerHTML = addQuotecell(i, "bronze"),
 	sixthRow.appendChild(td);
-	
 	//Blank TD
 	td = document.createElement('td'),
 	blanktd = document.createElement('td'),
@@ -209,12 +197,10 @@ for(var i=1;i<heroNames.length;i++){
 	copycell = document.createElement('td'),
 	copycell.innerHTML = addCopycell(i, "bonus"),
 	seventhRow.appendChild(copycell);
-	
 	//Bonus Quotes
 	td = document.createElement('td'),
 	td.innerHTML = addQuotecell(i, "bonus"),
 	seventhRow.appendChild(td);
-	
 	//Blank TD
 	td = document.createElement('td'),
 	blanktd = document.createElement('td'),
