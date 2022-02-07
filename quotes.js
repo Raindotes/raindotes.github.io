@@ -371,7 +371,7 @@ quotes['platinum'] = [
 		["I'm going to call that experiment, a failure."], //Tinker
 		["You haven't got the stones."], //Tiny
 		["Ah, fresh fertilizer."], //Treant Protector
-		["This can't be happening."], //Troll Warlord
+		["Enjoy your ban."], //Troll Warlord
 		["Oh, that had to hurt!"], //Tusk
 		["There is no hope."], //Underlord
 		["Not feed."], //Undying
