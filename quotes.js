@@ -128,7 +128,8 @@ var heroNames = [
 		["gale", "risinggale", "compass", "windrangerarcana", "windarcana", "wrarcana", "windrunnerarcana"],
 		["winter_wyvern", "winterwyvern", "winter", "wyvern", "ww"],
 		["witch_doctor", "witch", "witchdoctor", "wd"],
-		["wraith_king", "wraithking", "skeletonking", "wk", "wraith", "skele", "leoric"],
+		["wraith_king", "wraithking", "wk", "wraith", "ostarion"],
+		["skeleton_king", "skeletonking", "skele", "wraithkingarcana", "wkarcana", "leoric"],
 		["zeus", "zuus", "zeuz"]
 		];
 		
@@ -265,6 +266,7 @@ quotes['master'] = [
 		["Ah, I've never felt this good! Ah ha ha ha ha!"], //Winter Wyvern
 		["Oyeaaaaah."], //Witch Doctor
 		["WELCOME TO ALL MY NEW SUBJECTS. NOW LET'S GET TO KNOW EACH OTHER."], //Wraith King
+		["NO BONES ABOUT IT. YOU SUCK."], //Skeleton King Arcana
 		["Did you think you could hide from a god?"] //Zeus
 		];
 			
@@ -399,6 +401,7 @@ quotes['platinum'] = [
 		["Well deserved!"], //Winter Wyvern
 		["Stick a bone in it. You're done."], //Witch Doctor
 		["I NOW HAVE ALL THE SEXY."], //Wraith King
+		["I COULD'VE SWORN THERE WERE MORE."], //Skeleton King Arcana
 		["Thunderous applause!"] //Zeus
 		];
 			
@@ -533,6 +536,7 @@ quotes['gold'] = [
 		["Poor dear."], //Winter Wyvern
 		["Oh, look at it go."], //Witch Doctor
 		["I MISS MY BONES."], //Wraith King
+		["DEAL WITH IT."], //Skeleton King Arcana
 		["That's all it takes to kill you?"] //Zeus
 		];
 			
@@ -667,6 +671,7 @@ quotes['silver'] = [
 		["Chill, baby."], //Winter Wyvern
 		["Wait for it... wait for it..."], //Witch Doctor
 		["TAKE A KNEE, PEASANT."], //Wraith King
+		["NOW WE'RE ROLLING DEEP."], //Skeleton King Arcana
 		["Wait for it!"] //Zeus
 		];
 
@@ -801,6 +806,7 @@ quotes['bronze'] = [
 		["Have patience, child."], //Winter Wyvern
 		["Feeling good, man."], //Witch Doctor
 		["I'LL HELP MY WEAK AND PUNY ALLIES WHERE I CAN."], //Wraith King
+		["ALL THAT EFFORT FOR NOTHING."], //Skeleton King Arcana
 		["By my whiskers, that's good stuff!"] //Zeus
 		];
 			
@@ -935,6 +941,7 @@ quotes['grandmaster'] = [
 		["Wyvern? Why not."], //Winter Wyvern
 		["Abutalabashuneba."], //Witch Doctor
 		["GUYS? GUYS?!"], //Wraith King
+		["KILL ME!"], //Skeleton King Arcana
 		["God's gift to the world: Me."] //Zeus
 		];
 		
@@ -1069,6 +1076,7 @@ quotes['bonus'] = [
 		["I'm melting!"], //Winter Wyvern
 		["Roll out the barrel!"], //Witch Doctor
 		["DEATH IS MY BITCH."], //Wraith King
+		["MY QUEEN."], //Skeleton King Arcana
 		["You can't run from heaven!"] //Zeus
 		];
 
