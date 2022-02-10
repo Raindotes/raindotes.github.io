@@ -4,7 +4,7 @@ var heroNames = [
 		["alchemist", "alc", "razzil", "alch"],
 		["ancient_apparition", "ancientapparition", "ancientapprition", "aa", "kaldr"],
 		["antimage", "am", "magina"],
-		["wei", "ampersona", "antimagepersona"],
+		["wei", "ampersona", "antimagepersona", "disciple"],
 		["arc_warden", "arcwarden", "aw", "arc", "warden", "zet"],
 		["axe", "mogulkhan"],
 		["bane", "atropos"],
@@ -32,6 +32,7 @@ var heroNames = [
 		["davion"],
 		["slyrak", "slyrack", "sly"],
 		["drow_ranger", "drowranger", "drow", "trax", "traxex"],
+		["dread", "retribution", "dreadretribution", "drowrangerarcana", "drowarcana"],
 		["earth_spirit", "earthspirit", "kaolin", "earth"],
 		["earthshaker", "shaker", "raigor", "es"],
 		["elder_titan", "eldertitan", "elder", "et", "titan", "tc", "worldsmith"],
@@ -82,8 +83,10 @@ var heroNames = [
 		["phoenix", "phx", "ph", "bird", "birb"],
 		["puck", "faeriedragon"],
 		["pudge", "pudka", "butcher"],
+		["toy_pudge", "toypudge", "pudgetoy", "toybutcher", "pudgepersona"],
 		["pugna", "pug"],
 		["queen_of_pain", "queenofpain", "queen", "qop", "akasha"],
+		["ristul", "eminence", "queenofpainarcana", "queenarcana", "qoparcana"],
 		["razor"],
 		["riki", "rikimaru", "sa"],
 		["rubick", "rub", "grandmagus"],
@@ -122,6 +125,7 @@ var heroNames = [
 		["warlock"],
 		["weaver"],
 		["windranger", "windrunner", "wr", "wind", "lyralei"],
+		["gale", "risinggale", "compass", "windrangerarcana", "windarcana", "wrarcana", "windrunnerarcana"],
 		["winter_wyvern", "winterwyvern", "winter", "wyvern", "ww"],
 		["witch_doctor", "witch", "witchdoctor", "wd"],
 		["wraith_king", "wraithking", "skeletonking", "wk", "wraith", "skele", "leoric"],
@@ -164,6 +168,7 @@ quotes['master'] = [
 		["Oh you love to see it."], //Davion
 		["You whine like a dragon knight."], //Slyrak
 		["Now that you're dead, I find it easy to respect you."], //Drow Ranger
+		["Given your reputation, I thought you'd be more skilled."], //Dread Retribution Drow Arcana
 		["Who dares face me now."], //Earth Spirit
 		["There may be many earths, but there's only one Earthshaker."], //Earthshaker
 		["You must learn respect for your elders."], //Elder Titan
@@ -214,8 +219,10 @@ quotes['master'] = [
 		["Contented Squawk"], //Phoenix
 		["I am unfamiliar with this feeling. Is it joy?"], //Puck
 		["You'll look good with an apple in yer mouth!"], //Pudge
+		["Relax, it's just a game."], //Toy Pudge
 		["You're wasting your life."], //Pugna
 		["I know I'm a pain, but you love me anyway."], //Queen of Pain
+		["If you could see the look on your face."], //QoP Arcana Ristul
 		["Zapped your ass!"], //Razor
 		["Oh you're dead. What a surprise."], //Riki
 		["Exquisite! Absolutely exquisite!"], //Rubick
@@ -254,6 +261,7 @@ quotes['master'] = [
 		["Can you believe this? Ah ha ha ha ha ha ha ha ha ha!"], //Warlock
 		["Ho, snap!"], //Weaver
 		["I blow you a kiss."], //Windranger
+		["This is a no sneak zone."], //Rising Gale Windranger Arcana
 		["Ah, I've never felt this good! Ah ha ha ha ha!"], //Winter Wyvern
 		["Oyeaaaaah."], //Witch Doctor
 		["WELCOME TO ALL MY NEW SUBJECTS. NOW LET'S GET TO KNOW EACH OTHER."], //Wraith King
@@ -294,6 +302,7 @@ quotes['platinum'] = [
 		["Stop. Just... stop."], //Davion
 		["Are you afraid?"], //Slyrak
 		["This couldn't have ended any other way."], //Drow Ranger
+		["I don't care who you are. I just need you to die."], //Dread Retribution Drow Arcana
 		["Really? Really?"], //Earth Spirit
 		["It was getting far too crowded."], //Earthshaker
 		["A pitiable attempt."], //Elder Titan
@@ -344,8 +353,10 @@ quotes['platinum'] = [
 		["Angry Squawk"], //Phoenix
 		["Was that smart?"], //Puck
 		["Delicious..."], //Pudge
+		["Go and play with yourself."], //Toy Pudge
 		["You did that to yourself."], //Pugna
 		["You want me? Come get me."], //Queen of Pain
+		["Yeah, okay. My bad."], //QoP Arcana Ristul
 		["This will only hurt forever."], //Razor
 		["I've been here the whole time."], //Riki
 		["Whoops!"], //Rubick
@@ -384,6 +395,7 @@ quotes['platinum'] = [
 		["Pipsqueak."], //Warlock
 		["A feast for my beetles."], //Weaver
 		["Tell me this did not just happen."], //Windranger
+		["Something about fighting always makes me really thirsty."], //Rising Gale Windranger Arcana
 		["Well deserved!"], //Winter Wyvern
 		["Stick a bone in it. You're done."], //Witch Doctor
 		["I NOW HAVE ALL THE SEXY."], //Wraith King
@@ -424,6 +436,7 @@ quotes['gold'] = [
 		["I should probably learn from that."], //Davion
 		["You understood nothing."], //Slyrak
 		["Amateur."], //Drow Ranger
+		["Tell me: was it worth it?"], //Dread Retribution Drow Arcana
 		["Perfect timing."], //Earth Spirit
 		["Slammin'...?"], //Earthshaker
 		["What have I done now?"], //Elder Titan
@@ -474,8 +487,10 @@ quotes['gold'] = [
 		["Sorrowful Squawk"], //Phoenix
 		["Someone chose a poor time to put me out of commission."], //Puck
 		["Whateva."], //Pudge
+		["It's all fun and games till someone gets their face ripped off."], //Toy Pudge
 		["Time to earn myself a bad reputation."], //Pugna
 		["I love it when you resist."], //Queen of Pain
+		["What's on the menu today?"], //QoP Arcana Ristul
 		["Shocking."], //Razor
 		["Peek-aboo."], //Riki
 		["What a surprise!"], //Rubick
@@ -514,6 +529,7 @@ quotes['gold'] = [
 		["Another name in my grimoire."], //Warlock
 		["A pattern repeats."], //Weaver
 		["If you weren't so damned dead, I'd shoot you again."], //Windranger
+		["Phew, that took forever."], //Rising Gale Windranger Arcana
 		["Poor dear."], //Winter Wyvern
 		["Oh, look at it go."], //Witch Doctor
 		["I MISS MY BONES."], //Wraith King
@@ -554,6 +570,7 @@ quotes['silver'] = [
 		["Explain how this works again."], //Davion
 		["Pathetic."], //Slyrak
 		["You'll have to do better than that!"], //Drow Ranger
+		["I'm not feeling patient."], //Dread Retribution Drow Arcana
 		["Yes, I just did that."], //Earth Spirit
 		["It was your own damn fault."], //Earthshaker
 		["Get off my lawn!"], //Elder Titan
@@ -604,8 +621,10 @@ quotes['silver'] = [
 		["Denying Squawk"], //Phoenix
 		["You might wish to retract your last move."], //Puck
 		["Oops. Was that me?"], //Pudge
+		["You must have a messed up childhood."], //Toy Pudge
 		["You're only making it worse."], //Pugna
 		["That was perfect."], //Queen of Pain
+		["Well, that's embarassing."], //QoP Arcana Ristul
 		["You can run. You should run."], //Razor
 		["Why prolong the inevitable?"], //Riki
 		["I almost feel bad."], //Rubick
@@ -644,6 +663,7 @@ quotes['silver'] = [
 		["Really? You just did that?"], //Warlock
 		["You thought you had me, didn't you?"], //Weaver
 		["Could be worse. Oh, wait, no it couldn't."], //Windranger
+		["Did you guys see that?"], //Rising Gale Windranger Arcana
 		["Chill, baby."], //Winter Wyvern
 		["Wait for it... wait for it..."], //Witch Doctor
 		["TAKE A KNEE, PEASANT."], //Wraith King
@@ -684,6 +704,7 @@ quotes['bronze'] = [
 		["So much for the element of surprise."], //Davion
 		["Well done..."], //Slyrak
 		["Silly doe."], //Drow Ranger
+		["I'm going to savor every minute."], //Dread Retribution Drow Arcana
 		["You rock."], //Earth Spirit
 		["Let's shake things up!"], //Earthshaker
 		["Better you run and hide."], //Elder Titan
@@ -734,8 +755,10 @@ quotes['bronze'] = [
 		["Thankful Squawk"], //Phoenix
 		["I do enjoy an occasional blink."], //Puck
 		["That's a bit of all right."], //Pudge
+		["Not technically a miss."], //Toy Pudge
 		["Ah, this is going to be good."], //Pugna
 		["Time for some roleplay."], //Queen of Pain
+		["Who needs sleep?"], //QoP Arcana Ristul
 		["I sense a connection between us!"], //Razor
 		["Contract complete."], //Riki
 		["Excellent idea!"], //Rubick
@@ -774,6 +797,7 @@ quotes['bronze'] = [
 		["Curse that blade!"], //Warlock
 		["The pattern is complete."], //Weaver
 		["Easy breezy."], //Windranger
+		["Maybe you should run."], //Rising Gale Windranger Arcana
 		["Have patience, child."], //Winter Wyvern
 		["Feeling good, man."], //Witch Doctor
 		["I'LL HELP MY WEAK AND PUNY ALLIES WHERE I CAN."], //Wraith King
@@ -814,6 +838,7 @@ quotes['grandmaster'] = [
 		["Do you love me?"], //Davion
 		["Run little mouse."], //Slyrak
 		["I thought they warned you not to speak with rangers."], //Drow Ranger
+		["At least you left behind a beautiful corpse."], //Dread Retribution Drow Arcana
 		["You are learned in the ways of dying."], //Earth Spirit
 		["Don't take that magnitude with me."], //Earthshaker
 		["So puny compared to a Titan."], //Elder Titan
@@ -864,8 +889,10 @@ quotes['grandmaster'] = [
 		["Battle Squawk"], //Phoenix
 		["I find myself strangely drawn to this odd configuration of activity."], //Puck
 		["Oh, kidneys. Kidneys is nice."], //Pudge
+		["Mm nom nom nom nom nom nom."], //Toy Pudge
 		["Oh don't take it personally."], //Pugna
 		["I'm sorry, did you say stop?"], //Queen of Pain
+		["Don't you point that thing at me."], //QoP Arcana Ristul
 		["Ah ahaha ha! You forgot to ground me!"], //Razor
 		["Sneaky, aren't I?"], //Riki
 		["Yoink!"], //Rubick
@@ -904,6 +931,7 @@ quotes['grandmaster'] = [
 		["Have you ever seen this many demons?"], //Warlock
 		["Shuttle and loom, I weave your doom."], //Weaver
 		["Buh-bye!"], //Windranger
+		["Of course. What do I look like, a moron?"], //Rising Gale Windranger Arcana
 		["Wyvern? Why not."], //Winter Wyvern
 		["Abutalabashuneba."], //Witch Doctor
 		["GUYS? GUYS?!"], //Wraith King
@@ -944,6 +972,7 @@ quotes['bonus'] = [
 		["Why do they call it a sheep stick?"], //Davion
 		["What transpires in that tiny brain?"], //Slyrak
 		["I found a secret."], //Drow Ranger
+		["Run faster."], //Dread Retribution Drow Arcana
 		["Such a disappointment."], //Earth Spirit
 		["Chaos Dunk!"], //Earthshaker
 		["I have reduced you to pulp."], //Elder Titan
@@ -994,8 +1023,10 @@ quotes['bonus'] = [
 		["Laughing Squawk"], //Phoenix
 		["Your comments cut me to the quick."], //Puck
 		["First Blood! Have I got juice on me chins?"], //Pudge
+		["This is a family establishment!"], //Toy Pudge
 		["I'll bet you feel like a fool."], //Pugna
 		["It feels so good to be bad."], //Queen of Pain
+		["Yay, walking."], //QoP Arcana Ristul
 		["You are dead. Dead."], //Razor
 		["It says right in my contract, no refunds."], //Riki
 		["Ha! That was terrible."], //Rubick
@@ -1034,6 +1065,7 @@ quotes['bonus'] = [
 		["Just for that, I'm unfiending you."], //Warlock
 		["Tichedricheaph."], //Weaver
 		["Hey, where'd I go?"], //Windranger
+		["Oh, that's just gross."], //Rising Gale Windranger Arcana
 		["I'm melting!"], //Winter Wyvern
 		["Roll out the barrel!"], //Witch Doctor
 		["DEATH IS MY BITCH."], //Wraith King
