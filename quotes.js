@@ -758,7 +758,7 @@ quotes['bronze'] = [
 		["I see you!"], //Phantom Assassin
 		["What an amazing thing!"], //Phantom Lancer
 		["Thankful Squawk"], //Phoenix
-		["I do enjoy an occasional blink."], //Puck
+		["You took that jape too far."], //Puck
 		["That's a bit of all right."], //Pudge
 		["Not technically a miss."], //Toy Pudge
 		["Ah, this is going to be good."], //Pugna
