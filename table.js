@@ -1,11 +1,11 @@
 function addCopycell (i, abbr){
-	var copyCell = `<span id="` + heroNames[i][0] + `_` + abbr + `text" class="copy-field">` + heroNames[i][0].replace(/_/g, " ") + ` ` + abbr + `</span><span class="herolist__hero ` + heroNames[i][0] + `"><a class="herolist__hero__link"><span class="herolist__hero__name"></span></a></span><button class="cp_btn" onclick="copyToClipboard('` + heroNames[i][0] + `_` + abbr + `text')">Copy</button>`;
+	var copyCell = `<span id="` + heroNames[i][0] + `_` + abbr + `_text" class="copy-field">` + heroNames[i][0].replace(/_/g, " ") + ` ` + abbr + `</span><span class="herolist__hero ` + heroNames[i][0] + `"><a class="herolist__hero__link"><span class="herolist__hero__name"></span></a></span><button class="cp_btn" onclick="copyToClipboard('` + heroNames[i][0] + `_` + abbr + `text')">Copy</button>`;
 	return copyCell;
 }
 
 function addQuotecell (i, tier){
 	capitalTier = tier[0].toUpperCase() + tier.substring(1);
-	var quoteCell = '<span id="dotaplus"><img id ="tier" title="' + capitalTier + '"  src="./assets/images/hero_badges/' + tier + '.png"></span><span id="speaker"><audio id="' + heroNames[i][0] + '_' + tier + '" preload="none"><source src="./assets/audio/' + tier + '/' + heroNames[i][0] + '.mp3" type="audio/mpeg"></audio><a href="#" title="Play Audio" id="play" onclick="' + heroNames[i][0] + '_' + tier + '.play();return false;"><img src="./assets/images/audio.png"></a></span><span id="message" class="' + tier + '">' + quotes[tier][i]; + '</span>';
+	var quoteCell = '<span id="dotaplus"><img id ="tier" title="' + capitalTier + '"  src="./assets/images/hero_badges/' + tier + '.png"></span><span id="speaker"><audio id="' + heroNames[i][0] + '_' + tier + '_audio" preload="none"><source src="./assets/audio/' + tier + '/' + heroNames[i][0] + '.mp3" type="audio/mpeg"></audio><a href="#" title="Play Audio" id="play" onclick="' + heroNames[i][0] + '_' + tier + '_audio.play();return false;"><img src="./assets/images/audio.png"></a></span><span id="message" class="' + tier + '">' + quotes[tier][i]; + '</span>';
 	return quoteCell;
 }
 
@@ -90,6 +90,7 @@ for(var i=1;i<heroNames.length;i++){
 
 	//Grandmaster Keywords
 	firstRow = document.createElement('tr'),
+	firstRow.id = heroNames[i][0]+"_grandmaster",
 	copycell = document.createElement('td'),
 	copycell.innerHTML = addCopycell(i, "gm"),
 	firstRow.appendChild(copycell);
@@ -102,6 +103,7 @@ for(var i=1;i<heroNames.length;i++){
 	var cleanNames = heroNames[i].join(),
 	cleanNames = cleanNames.replace(/_/g, " ").replace(/,/g, ", ");
 	altNames.innerHTML = cleanNames;
+	altNames.setAttribute("id", heroNames[i][0]+"_aliases");
 	altNames.setAttribute("rowspan", "7");
 	firstRow.appendChild(altNames);
 	
@@ -109,6 +111,7 @@ for(var i=1;i<heroNames.length;i++){
 
 	//Master Keywords
 	secondRow = document.createElement('tr'),
+	secondRow.id = heroNames[i][0]+"_master",
 	copycell = document.createElement('td'),
 	copycell.innerHTML = addCopycell(i, "master"),
 	secondRow.appendChild(copycell);
@@ -119,6 +122,8 @@ for(var i=1;i<heroNames.length;i++){
 	//Blank TD
 	td = document.createElement('td'),
 	blanktd = document.createElement('td'),
+	blanktd.id = (heroNames[i][0]+"_blank"),
+	blanktd.setAttribute("rowspan", "6"),
 	blanktd.style.display = "none",
 	secondRow.appendChild(blanktd);
 	
@@ -126,6 +131,7 @@ for(var i=1;i<heroNames.length;i++){
 	
 	//Platinum Keywords
 	thirdRow = document.createElement('tr'),	
+	thirdRow.id = heroNames[i][0]+"_platinum",
 	copycell = document.createElement('td'),
 	copycell.innerHTML = addCopycell(i, "plat"),
 	thirdRow.appendChild(copycell);
@@ -136,6 +142,8 @@ for(var i=1;i<heroNames.length;i++){
 	//Blank TD
 	td = document.createElement('td'),
 	blanktd = document.createElement('td'),
+	blanktd.id = (heroNames[i][0]+"_blank"),
+	blanktd.setAttribute("rowspan", "5"),
 	blanktd.style.display = "none",
 	thirdRow.appendChild(blanktd);
 	
@@ -143,6 +151,7 @@ for(var i=1;i<heroNames.length;i++){
 	
 	//Gold Keywords
 	fourthRow = document.createElement('tr'),
+	fourthRow.id = heroNames[i][0]+"_gold",
 	copycell = document.createElement('td'),
 	copycell.innerHTML = addCopycell(i, "gold"),
 	fourthRow.appendChild(copycell);
@@ -153,6 +162,8 @@ for(var i=1;i<heroNames.length;i++){
 	//Blank TD
 	td = document.createElement('td'),
 	blanktd = document.createElement('td'),
+	blanktd.id = (heroNames[i][0]+"_blank"),
+	blanktd.setAttribute("rowspan", "4"),
 	blanktd.style.display = "none",
 	fourthRow.appendChild(blanktd);
 	
@@ -160,6 +171,7 @@ for(var i=1;i<heroNames.length;i++){
 	
 	//Silver Keywords
 	fifthRow = document.createElement('tr'),
+	fifthRow.id = heroNames[i][0]+"_silver",
 	copycell = document.createElement('td'),
 	copycell.innerHTML = addCopycell(i, "silver"),
 	fifthRow.appendChild(copycell);
@@ -170,6 +182,8 @@ for(var i=1;i<heroNames.length;i++){
 	//Blank TD
 	td = document.createElement('td'),
 	blanktd = document.createElement('td'),
+	blanktd.id = (heroNames[i][0]+"_blank"),
+	blanktd.setAttribute("rowspan", "3"),
 	blanktd.style.display = "none",
 	fifthRow.appendChild(blanktd);
 	
@@ -177,6 +191,7 @@ for(var i=1;i<heroNames.length;i++){
 	
 	//Bronze Keywords
 	sixthRow = document.createElement('tr'),
+	sixthRow.id = heroNames[i][0]+"_bronze",
 	copycell = document.createElement('td'),
 	copycell.innerHTML = addCopycell(i, "bronze"),
 	sixthRow.appendChild(copycell);
@@ -187,6 +202,8 @@ for(var i=1;i<heroNames.length;i++){
 	//Blank TD
 	td = document.createElement('td'),
 	blanktd = document.createElement('td'),
+	blanktd.id = (heroNames[i][0]+"_blank"),
+	blanktd.setAttribute("rowspan", "2"),
 	blanktd.style.display = "none",
 	sixthRow.appendChild(blanktd);
 	
@@ -194,6 +211,7 @@ for(var i=1;i<heroNames.length;i++){
 	
 	//Bonus Keywords
 	seventhRow = document.createElement('tr'),
+	seventhRow.id = heroNames[i][0]+"_bonus",
 	copycell = document.createElement('td'),
 	copycell.innerHTML = addCopycell(i, "bonus"),
 	seventhRow.appendChild(copycell);
@@ -204,6 +222,8 @@ for(var i=1;i<heroNames.length;i++){
 	//Blank TD
 	td = document.createElement('td'),
 	blanktd = document.createElement('td'),
+	blanktd.id = (heroNames[i][0]+"_blank"),
+	blanktd.setAttribute("rowspan", "1"),
 	blanktd.style.display = "none",
 	seventhRow.appendChild(blanktd);
 	
