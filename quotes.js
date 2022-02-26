@@ -42,7 +42,7 @@ var heroNames = [
 		["faceless_void", "facelessvoid", "faceless", "darkterror", "void", "fv"],
 		["grimstroke", "grim"],
 		["gyrocopter", "gyro", "aurel"],
-		["hoodwink", "hood", "hoo"],
+		["hoodwink", "hood", "hoo", "squirrel", "furry"],
 		["huskar", "husk"],
 		["invoker", "voker", "arsenalmagus"],
 		["kid_invoker", "kidinvoker", "kid", "acolyte", "carl", "invokerpersona"],
@@ -81,6 +81,7 @@ var heroNames = [
 		["phantom_assassin", "phantomassassin", "pa", "mortred"],
 		["phantom_lancer", "phantomlancer", "pl", "azwraith"],
 		["phoenix", "phx", "ph", "bird", "birb"],
+		["primal_beast", "primalbeast", "primal", "beast"],
 		["puck", "faeriedragon"],
 		["pudge", "pudka", "butcher"],
 		["toy_pudge", "toypudge", "pudgetoy", "toybutcher", "pudgepersona"],
@@ -218,6 +219,7 @@ quotes['master'] = [
 		["I'm an immaterial girl!"], //Phantom Assassin
 		["We outnumbered you. We outnumber them all!"], //Phantom Lancer
 		["Contented Squawk"], //Phoenix
+		["Frustrated Roar"], //Primal Beast
 		["I am unfamiliar with this feeling. Is it joy?"], //Puck
 		["You'll look good with an apple in yer mouth!"], //Pudge
 		["Relax, it's just a game."], //Toy Pudge
@@ -353,6 +355,7 @@ quotes['platinum'] = [
 		["Ha, ahhh, ha ha, no no no."], //Phantom Assassin
 		["Numbers have accomplished what strategy alone could not."], //Phantom Lancer
 		["Angry Squawk"], //Phoenix
+		["Confused Roar"], //Primal Beast
 		["Was that smart?"], //Puck
 		["Delicious..."], //Pudge
 		["Go and play with yourself."], //Toy Pudge
@@ -488,6 +491,7 @@ quotes['gold'] = [
 		["That went well, I think."], //Phantom Assassin
 		["Now this is just silly."], //Phantom Lancer
 		["Sorrowful Squawk"], //Phoenix
+		["Challenging Roar"], //Primal Beast
 		["Someone chose a poor time to put me out of commission."], //Puck
 		["Whateva."], //Pudge
 		["It's all fun and games till someone gets their face ripped off."], //Toy Pudge
@@ -623,6 +627,7 @@ quotes['silver'] = [
 		["All according to plan."], //Phantom Assassin
 		["Such simple minds."], //Phantom Lancer
 		["Denying Squawk"], //Phoenix
+		["Friendly Roar"], //Primal Beast
 		["You might wish to retract your last move."], //Puck
 		["Oops. Was that me?"], //Pudge
 		["You must have a messed up childhood."], //Toy Pudge
@@ -758,6 +763,7 @@ quotes['bronze'] = [
 		["I see you!"], //Phantom Assassin
 		["What an amazing thing!"], //Phantom Lancer
 		["Thankful Squawk"], //Phoenix
+		["Thankful Roar"], //Primal Beast
 		["You took that jape too far."], //Puck
 		["That's a bit of all right."], //Pudge
 		["Not technically a miss."], //Toy Pudge
@@ -893,6 +899,7 @@ quotes['grandmaster'] = [
 		["Something in your eye?"], //Phantom Assassin
 		["From one: an army."], //Phantom Lancer
 		["Battle Squawk"], //Phoenix
+		["Indignant Roar"], //Primal Beast
 		["I find myself strangely drawn to this odd configuration of activity."], //Puck
 		["Oh, kidneys. Kidneys is nice."], //Pudge
 		["Mm nom nom nom nom nom nom."], //Toy Pudge
@@ -993,7 +1000,7 @@ quotes['bonus'] = [
 		["Blink and I'll cut you."], //Huskar
 		["Behold the meatball!"], //Invoker
 		["Everyone... kinda hates me. Do I turn into a real jerk or something?"], //Kid Invoker
-		["Aegisy Beeps"], //Io
+		["Huge Success Beeps"], //Io
 		["This changes everything."], //Jakiro
 		["I'm the Juggernaut, bitch!"], //Juggernaut
 		["Run! Run, I say!"], //Keeper of the Light
@@ -1028,6 +1035,7 @@ quotes['bonus'] = [
 		["I don't believe this!"], //Phantom Assassin
 		["This was all of our fault!"], //Phantom Lancer
 		["Laughing Squawk"], //Phoenix
+		["Radioactive Roar"], //Primal Beast
 		["Your comments cut me to the quick."], //Puck
 		["First Blood! Have I got juice on me chins?"], //Pudge
 		["This is a family establishment!"], //Toy Pudge
