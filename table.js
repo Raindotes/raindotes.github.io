@@ -1,5 +1,5 @@
 function addCopycell (i, abbr){
-	var copyCell = `<span id="` + heroNames[i][0] + `_` + abbr + `_text" class="copy-field">` + heroNames[i][0].replace(/_/g, " ") + ` ` + abbr + `</span><span class="herolist__hero ` + heroNames[i][0] + `"><a class="herolist__hero__link"><span class="herolist__hero__name"></span></a></span><button class="cp_btn" onclick="copyToClipboard('` + heroNames[i][0] + `_` + abbr + `text')">Copy</button>`;
+	var copyCell = `<span id="` + heroNames[i][0] + `_` + abbr + `_text" class="copy-field">` + heroNames[i][0].replace(/_/g, " ") + ` ` + abbr + `</span><span class="herolist__hero ` + heroNames[i][0] + `"><a class="herolist__hero__link"><span class="herolist__hero__name"></span></a></span><button class="cp_btn" onclick="copyToClipboard('` + heroNames[i][0] + `_` + abbr + `_text')">Copy</button>`;
 	return copyCell;
 }
 
