@@ -136,6 +136,142 @@ var heroNames = [
 		
 var quotes = [];
 
+quotes['grandmaster'] = [
+		["You didn't type a hero in correctly..."], //UNDEFINED
+		["Oh no you di'nt."], //Abaddon
+		["I can't feel my legs."], //Alc
+		["No shard feelings. Hm hm hm hm hm hm hm."], //AA
+		["Thou and I must have a frank discussion."], //AM
+		["Hey! Who killed these creeps?"], //AM Persona
+		["You will just have to accept this, and move on."], //Arc
+		["Axe-actly!"], //Axe
+		["Some dreams never die! Ahahahahahah!"], //Bane
+		["A message from on high: You're dead!"], //Batrider
+		["It's not the size of the beast in the fight but... well, actually, size kinda helps."], //Beastmaster
+		["My drive for blood has found a donor!"], //Bloodseeker
+		["Ka-ching! Your bounty is mine."], //Bounty Hunter
+		["Having trouble seeing straight?"], //Brewmaster
+		["Oy, oy, oy, save some of that keg for me, will ya, lads?"], //Bristleback
+		["My palps are all atingle."], //Broodmother
+		["I forgot about the kick on that one."], //Centaur
+		["Chaos is Fun...damental."], //Chaos Knight
+		["Say your prayers."], //Chen
+		["Hot damn!"], //Clinkz
+		["Hard on the outside, but with a soft delicious center."], //Clockwerk
+		["You only live ice!"], //Crystal Maiden
+		["You're no peer of the seer."], //Dark Seer
+		["Ugh, fine. I guess you're my little PogChamp. Come here."], //Dark Willow
+		["I don't need praise from you."], //Dawnbreaker
+		["If killing you is wrong, I don't want to be right."], //Dazzle
+		["No no. Tsk tsk tsk."], //Death Prophet
+		["Feeling under the weather?"], //Disruptor
+		["Mess with Doom, you get the horns."], //Doom
+		["Never make a deal with a dragon, unless you're prepared to keep your end of it."], //Dragon Knight
+		["Do you love me?"], //Davion
+		["Run little mouse."], //Slyrak
+		["I thought they warned you not to speak with rangers."], //Drow Ranger
+		["At least you left behind a beautiful corpse."], //Dread Retribution Drow Arcana
+		["You are learned in the ways of dying."], //Earth Spirit
+		["Don't take that magnitude with me."], //Earthshaker
+		["So puny compared to a Titan."], //Elder Titan
+		["My favorite: medium rare!"], //Ember Spirit
+		["You okay?"], //Enchantress
+		["Is this real? Am I... real?"], //Enigma
+		["Where do you think you're going."], //Faceless Void
+		["Aaah ha ha ha ha ha ha ha ha, my masterpiece!"], //Grimstroke
+		["Gagagagagagaga!"], //Gyrocopter
+		["Catch ya later dingleberry!"], //Hoodwink
+		["Offering accepted."], //Huskar
+		["I am a beacon of knowledge blazing out across a black sea of ignorance!"], //Invoker
+		["Get wrecked!"], //Kid Invoker
+		["Ominous Beeps"], //Io
+		["Hot damn."], //Jakiro
+		["How many blades am I holding up?"], //Juggernaut
+		["Kundalini!"], //Keeper of the Light
+		["No room to swing a cat in this crowd."], //Kunkka
+		["Augh!"], //Legion Commander
+		["Ah ha ha! A world out of balance!"], //Leshrac
+		["Ha ha! Who's ready for a cold one?"], //Lich
+		["Life, given freely?"], //Lifestealer
+		["It's not the heat, it's the humiliation."], //Lina
+		["When you get to hell, tell them I sent you."], //Lion
+		["This burden may be more than I can bear. Heh."], //Lone Druid
+		["Poor wee thing."], //Luna
+		["Tasty morsel."], //Lycan
+		["Was there ever any doubt?"], //Magnus
+		["Impressed Whistle"], //Marci
+		["WITNESS MEEEE!"], //Mars
+		["Whatever will I do with you?"], //Medusa
+		["I guess size ain't everything, eh? Eh!? Ha ha ha aww it is."], //Meepo
+		["Mee-ow!"], //Mirana
+		["Hey, you're almost as good as me."], //Monkey King
+		["H Two Owned."], //Morphling
+		["Wave goodbye!"], //Naga Siren
+		["Ah, the sun in my leaves."], //Nature's Prophet
+		["Oh, this is sick!"], //Necrophos
+		["Nighty night."], //Night Stalker
+		["You almost had it."], //Nyx Assassin
+		["Oh, skillshot! Not luck at all."], //Ogre Magi
+		["Judgment comes!"], //Omniknight
+		["I admit this comes as a huge surprise."], //Oracle
+		["I could hear your caterwauling from clear out on the rim."], //Outworld Devourer
+		["You broke my fall perfectly!"], //Pangolier
+		["Something in your eye?"], //Phantom Assassin
+		["From one: an army."], //Phantom Lancer
+		["Battle Squawk"], //Phoenix
+		["Indignant Roar"], //Primal Beast
+		["I find myself strangely drawn to this odd configuration of activity."], //Puck
+		["Oh, kidneys. Kidneys is nice."], //Pudge
+		["Mm nom nom nom nom nom nom."], //Toy Pudge
+		["Oh don't take it personally."], //Pugna
+		["I'm sorry, did you say stop?"], //Queen of Pain
+		["Don't you point that thing at me."], //QoP Arcana Ristul
+		["Ah ahaha ha! You forgot to ground me!"], //Razor
+		["Sneaky, aren't I?"], //Riki
+		["Yoink!"], //Rubick
+		["Sand and deliver!"], //Sand King
+		["That's it: You're out of the cult."], //Shadow Demon
+		["It's true, I have the soul of a poet. I just can't remember where I put it."], //Shadow Fiend
+		["Beat you like a drum!"], //Shadow Shaman
+		["What is that horrible noise?"], //Silencer
+		["Hayah!"], //Skywrath Mage
+		["Schooled you good."], //Slardar
+		["Here, fishy-fishy."], //Slark
+		["Yee haw! Job's done before ya know it!"], //Snapfire
+		["He shoots, he scores!"], //Sniper
+		["What strange properties this world has."], //Spectre
+		["And there I go. Psyche!"], //Spirit Breaker
+		["Ooh, who's that handsome devil?"], //Storm Spirit
+		["I'm going to count to one. One."], //Sven
+		["Bomb has been planted."], //Techies
+		["The only mystery is how you lasted so long."], //Templar Assassin
+		["Stop hitting yourself, stop hitting your... stop hitting yourself."], //Terrorblade
+		["Ha ha ha! Women and children and Kunkka first."], //Tidehunter
+		["De-li-cious."], //Timbersaw
+		["Consider my curiosity, piqued!"], //Tinker
+		["I peaked!"], //Tiny
+		["A tree killed you. A tree!"], //Treant Protector
+		["Oh, come on!"], //Troll Warlord
+		["Ta-da!"], //Tusk
+		["What's the matter? Ha ha ha ha ha!"], //Underlord
+		["You must be this tall to die."], //Undying
+		["For the cubs!"], //Ursa
+		["Revenge is a dish best served NOW."], //Vengeful Spirit
+		["I'm a perfect 10... on the pain scale."], //Venomancer
+		["Blewhehowowoe!"], //Viper
+		["In an eternity of watching, I have seen none like it."], //Visage
+		["I must admit to enjoying that."], //Void Spirit
+		["Have you ever seen this many demons?"], //Warlock
+		["Shuttle and loom, I weave your doom."], //Weaver
+		["Buh-bye!"], //Windranger
+		["Of course. What do I look like, a moron?"], //Rising Gale Windranger Arcana
+		["Wyvern? Why not."], //Winter Wyvern
+		["Abutalabashuneba."], //Witch Doctor
+		["GUYS? GUYS?!"], //Wraith King
+		["KILL ME!"], //Skeleton King Arcana
+		["God's gift to the world: Me."] //Zeus
+		];
+
 quotes['master'] = [
 		["You didn't type a hero in correctly..."], //UNDEFINED
 		["The fog of war is no match for the mist of fate."], //Abaddon
@@ -271,7 +407,7 @@ quotes['master'] = [
 		["NO BONES ABOUT IT. YOU SUCK."], //Skeleton King Arcana
 		["Did you think you could hide from a god?"] //Zeus
 		];
-			
+
 quotes['platinum'] = [
 		["You didn't type a hero in correctly..."], //UNDEFINED
 		["By what right do you tread here?"], //Abaddon
@@ -407,7 +543,7 @@ quotes['platinum'] = [
 		["I COULD'VE SWORN THERE WERE MORE."], //Skeleton King Arcana
 		["Thunderous applause!"] //Zeus
 		];
-			
+
 quotes['gold'] = [
 		["You didn't type a hero in correctly..."], //UNDEFINED
 		["How can such a thing be?"], //Abaddon
@@ -543,7 +679,7 @@ quotes['gold'] = [
 		["DEAL WITH IT."], //Skeleton King Arcana
 		["That's all it takes to kill you?"] //Zeus
 		];
-			
+
 quotes['silver'] = [
 		["You didn't type a hero in correctly..."], //UNDEFINED
 		["Bow to your lord."], //Abaddon
@@ -815,143 +951,7 @@ quotes['bronze'] = [
 		["ALL THAT EFFORT FOR NOTHING."], //Skeleton King Arcana
 		["By my whiskers, that's good stuff!"] //Zeus
 		];
-			
-quotes['grandmaster'] = [
-		["You didn't type a hero in correctly..."], //UNDEFINED
-		["Oh no you di'nt."], //Abaddon
-		["I can't feel my legs."], //Alc
-		["No shard feelings. Hm hm hm hm hm hm hm."], //AA
-		["Thou and I must have a frank discussion."], //AM
-		["Hey! Who killed these creeps?"], //AM Persona
-		["You will just have to accept this, and move on."], //Arc
-		["Axe-actly!"], //Axe
-		["Some dreams never die! Ahahahahahah!"], //Bane
-		["A message from on high: You're dead!"], //Batrider
-		["It's not the size of the beast in the fight but... well, actually, size kinda helps."], //Beastmaster
-		["My drive for blood has found a donor!"], //Bloodseeker
-		["Ka-ching! Your bounty is mine."], //Bounty Hunter
-		["Having trouble seeing straight?"], //Brewmaster
-		["Oy, oy, oy, save some of that keg for me, will ya, lads?"], //Bristleback
-		["My palps are all atingle."], //Broodmother
-		["I forgot about the kick on that one."], //Centaur
-		["Chaos is Fun...damental."], //Chaos Knight
-		["Say your prayers."], //Chen
-		["Hot damn!"], //Clinkz
-		["Hard on the outside, but with a soft delicious center."], //Clockwerk
-		["You only live ice!"], //Crystal Maiden
-		["You're no peer of the seer."], //Dark Seer
-		["Ugh, fine. I guess you're my little PogChamp. Come here."], //Dark Willow
-		["I don't need praise from you."], //Dawnbreaker
-		["If killing you is wrong, I don't want to be right."], //Dazzle
-		["No no. Tsk tsk tsk."], //Death Prophet
-		["Feeling under the weather?"], //Disruptor
-		["Mess with Doom, you get the horns."], //Doom
-		["Never make a deal with a dragon, unless you're prepared to keep your end of it."], //Dragon Knight
-		["Do you love me?"], //Davion
-		["Run little mouse."], //Slyrak
-		["I thought they warned you not to speak with rangers."], //Drow Ranger
-		["At least you left behind a beautiful corpse."], //Dread Retribution Drow Arcana
-		["You are learned in the ways of dying."], //Earth Spirit
-		["Don't take that magnitude with me."], //Earthshaker
-		["So puny compared to a Titan."], //Elder Titan
-		["My favorite: medium rare!"], //Ember Spirit
-		["You okay?"], //Enchantress
-		["Is this real? Am I... real?"], //Enigma
-		["Where do you think you're going."], //Faceless Void
-		["Aaah ha ha ha ha ha ha ha ha, my masterpiece!"], //Grimstroke
-		["Gagagagagagaga!"], //Gyrocopter
-		["Catch ya later dingleberry!"], //Hoodwink
-		["Offering accepted."], //Huskar
-		["I am a beacon of knowledge blazing out across a black sea of ignorance!"], //Invoker
-		["Get wrecked!"], //Kid Invoker
-		["Ominous Beeps"], //Io
-		["Hot damn."], //Jakiro
-		["How many blades am I holding up?"], //Juggernaut
-		["Kundalini!"], //Keeper of the Light
-		["No room to swing a cat in this crowd."], //Kunkka
-		["Augh!"], //Legion Commander
-		["Ah ha ha! A world out of balance!"], //Leshrac
-		["Ha ha! Who's ready for a cold one?"], //Lich
-		["Life, given freely?"], //Lifestealer
-		["It's not the heat, it's the humiliation."], //Lina
-		["When you get to hell, tell them I sent you."], //Lion
-		["This burden may be more than I can bear. Heh."], //Lone Druid
-		["Poor wee thing."], //Luna
-		["Tasty morsel."], //Lycan
-		["Was there ever any doubt?"], //Magnus
-		["Impressed Whistle"], //Marci
-		["WITNESS MEEEE!"], //Mars
-		["Whatever will I do with you?"], //Medusa
-		["I guess size ain't everything, eh? Eh!? Ha ha ha aww it is."], //Meepo
-		["Mee-ow!"], //Mirana
-		["Hey, you're almost as good as me."], //Monkey King
-		["H Two Owned."], //Morphling
-		["Wave goodbye!"], //Naga Siren
-		["Ah, the sun in my leaves."], //Nature's Prophet
-		["Oh, this is sick!"], //Necrophos
-		["Nighty night."], //Night Stalker
-		["You almost had it."], //Nyx Assassin
-		["Oh, skillshot! Not luck at all."], //Ogre Magi
-		["Judgment comes!"], //Omniknight
-		["I admit this comes as a huge surprise."], //Oracle
-		["I could hear your caterwauling from clear out on the rim."], //Outworld Devourer
-		["You broke my fall perfectly!"], //Pangolier
-		["Something in your eye?"], //Phantom Assassin
-		["From one: an army."], //Phantom Lancer
-		["Battle Squawk"], //Phoenix
-		["Indignant Roar"], //Primal Beast
-		["I find myself strangely drawn to this odd configuration of activity."], //Puck
-		["Oh, kidneys. Kidneys is nice."], //Pudge
-		["Mm nom nom nom nom nom nom."], //Toy Pudge
-		["Oh don't take it personally."], //Pugna
-		["I'm sorry, did you say stop?"], //Queen of Pain
-		["Don't you point that thing at me."], //QoP Arcana Ristul
-		["Ah ahaha ha! You forgot to ground me!"], //Razor
-		["Sneaky, aren't I?"], //Riki
-		["Yoink!"], //Rubick
-		["Sand and deliver!"], //Sand King
-		["That's it: You're out of the cult."], //Shadow Demon
-		["It's true, I have the soul of a poet. I just can't remember where I put it."], //Shadow Fiend
-		["Beat you like a drum!"], //Shadow Shaman
-		["What is that horrible noise?"], //Silencer
-		["Hayah!"], //Skywrath Mage
-		["Schooled you good."], //Slardar
-		["Here, fishy-fishy."], //Slark
-		["Yee haw! Job's done before ya know it!"], //Snapfire
-		["He shoots, he scores!"], //Sniper
-		["What strange properties this world has."], //Spectre
-		["And there I go. Psyche!"], //Spirit Breaker
-		["Ooh, who's that handsome devil?"], //Storm Spirit
-		["I'm going to count to one. One."], //Sven
-		["Bomb has been planted."], //Techies
-		["The only mystery is how you lasted so long."], //Templar Assassin
-		["Stop hitting yourself, stop hitting your... stop hitting yourself."], //Terrorblade
-		["Ha ha ha! Women and children and Kunkka first."], //Tidehunter
-		["De-li-cious."], //Timbersaw
-		["Consider my curiosity, piqued!"], //Tinker
-		["I peaked!"], //Tiny
-		["A tree killed you. A tree!"], //Treant Protector
-		["Oh, come on!"], //Troll Warlord
-		["Ta-da!"], //Tusk
-		["What's the matter? Ha ha ha ha ha!"], //Underlord
-		["You must be this tall to die."], //Undying
-		["For the cubs!"], //Ursa
-		["Revenge is a dish best served NOW."], //Vengeful Spirit
-		["I'm a perfect 10... on the pain scale."], //Venomancer
-		["Blewhehowowoe!"], //Viper
-		["In an eternity of watching, I have seen none like it."], //Visage
-		["I must admit to enjoying that."], //Void Spirit
-		["Have you ever seen this many demons?"], //Warlock
-		["Shuttle and loom, I weave your doom."], //Weaver
-		["Buh-bye!"], //Windranger
-		["Of course. What do I look like, a moron?"], //Rising Gale Windranger Arcana
-		["Wyvern? Why not."], //Winter Wyvern
-		["Abutalabashuneba."], //Witch Doctor
-		["GUYS? GUYS?!"], //Wraith King
-		["KILL ME!"], //Skeleton King Arcana
-		["God's gift to the world: Me."] //Zeus
-		];
-		
+
 quotes['bonus'] = [
 		["You didn't type a hero in correctly..."], //UNDEFINED
 		["Come at me."], //Abaddon
