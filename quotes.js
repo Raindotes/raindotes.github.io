@@ -1101,7 +1101,8 @@ var otherNames = [
 		["no_chill", "nochill", "chill"],
 		["baby", "candy", "candyfromababy"],
 		["good", "surprisinglygood"],
-		["oh_well", "ohwell", "noo", "no"]
+		["oh_well", "ohwell", "noo", "no"],
+		["family"]
 		];
 
 var otherQuotes = [
@@ -1117,5 +1118,6 @@ var otherQuotes = [
 		["This guy has no chill!"], //No Chill
 		["Like stealing candy from a baby... A no longer living baby."], //Candy
 		["Good, good! Surprisingly good!"], //Good
-		["Noooooo! Oh well."] //Oh Well
+		["Noooooo! Oh well."], //Oh Well
+		["Welcome to the family, son."] //Family
 		];
