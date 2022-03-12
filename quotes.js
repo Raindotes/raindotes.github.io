@@ -957,7 +957,7 @@ quotes['bonus'] = [
 		["Come at me."], //Abaddon
 		["That's comedy gold!"], //Alc
 		["Not til you're older."], //AA
-		["Thou art a poor speller."], //AM
+		["Bark on bitch, I hear thee not."], //AM
 		["This doesn't make any sense."], //AM Persona
 		["You fools were easily fooled."], //Arc
 		["Too much talking, not enough fighting."], //Axe
