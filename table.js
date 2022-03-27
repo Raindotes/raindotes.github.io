@@ -39,7 +39,7 @@ for(var i=0;i<otherNames.length;i++){
 	//Other Keywords
 	tr = document.createElement('tr'),
 	copycell = document.createElement('td'),
-	copycell.innerHTML = `<span id="` + otherNames[i][0] + `_text" class="copy-field">` + otherNames[i][0].replace(/_/g, " ") + `</span><button class="cp_btn" onclick="copyToClipboard('` + otherNames[i][0] + `_text')">Copy</button>`;
+	copycell.innerHTML = `<span id="` + otherNames[i][0] + `_text" class="copy-field">` + otherNames[i][0].replace(/_/g, " ") + `</span><span class="hero__placeholder"></span><button class="cp_btn" onclick="copyToClipboard('` + otherNames[i][0] + `_text')">Copy</button>`;
 	tr.appendChild(copycell);
 
 	//Other Quotes
@@ -54,6 +54,28 @@ for(var i=0;i<otherNames.length;i++){
 	cleanNames = cleanNames.replace(/_/g, " ").replace(/,/g, ", ");
 	td.innerHTML = cleanNames;
 	tr.appendChild(td);
+	
+	if (i == otherNames.length-1)
+	{
+		//Random keyword
+		tr = document.createElement('tr'),
+		copycell = document.createElement('td'),
+		copycell.innerHTML = `<span id="` + `random` + `_text" class="copy-field">` + `random` + `</span><span class="hero__placeholder"></span><button class="cp_btn" onclick="copyToClipboard('` + `random` + `_text')">Copy</button>`;
+		tr.appendChild(copycell);
+
+		//Random quote/explanation
+		td = document.createElement('td');
+		td.innerHTML='<span id="message" class="default">' + '<i>Plays a random line&nbsp;</i>' + '</span>';
+		tr.appendChild(td);
+		tbody.appendChild(tr);
+		
+		//Random otherNames
+		td = document.createElement('td');
+		var cleanNames = otherNames[i].join(),
+		cleanNames = "random, rando";
+		td.innerHTML = cleanNames;
+		tr.appendChild(td);
+	}
 }
 	
 	//Search field

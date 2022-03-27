@@ -200,6 +200,12 @@ tr:hover td:nth-child(-n+2){
 	vertical-align: middle;
 }
 
+.hero__placeholder{
+	height: 32px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
 #name,
 #colon {
     text-shadow: 2px 2px black, 1px 1px black, 2px 3px black;
