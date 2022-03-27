@@ -19,7 +19,7 @@ var heroNames = [
 		["chaos_knight", "chaosknight", "ck", "chaos", "nessaj"],
 		["chen"],
 		["clinkz", "bone", "bonefletcher", "brooklynkurtz"],
-		["clockwerk", "rattletrap", "clock", "cw"],
+		["clockwerk", "clockwork", "rattletrap", "clock", "cw"],
 		["crystal_maiden", "crystalmaiden", "cm", "maiden", "rylai"],
 		["dark_seer", "darkseer", "seer", "ds"],
 		["dark_willow", "darkwillow", "willow", "dw", "mireska", "biggestoversight"],
@@ -1102,7 +1102,7 @@ var otherNames = [
 		["baby", "candy", "candyfromababy"],
 		["good", "surprisinglygood"],
 		["oh_well", "ohwell", "noo", "no"],
-		["family"]
+		["family", "jack"]
 		];
 
 var otherQuotes = [
