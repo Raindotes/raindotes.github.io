@@ -1127,5 +1127,5 @@ var randomNames = [
 	];
 
 var randomQuotes = [
-	["<i>Plays a random line&nbsp;</i>"]
+	["<span style='padding-right:10px'><i>Plays a random line</i></span><span style='font-size:14px'><i>*17% chance to multicast&nbsp;</i></span>"]
 	];
