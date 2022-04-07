@@ -1127,5 +1127,5 @@ var randomNames = [
 	];
 
 var randomQuotes = [
-	["<i>Plays a random line</i>"]
+	["<i>Plays a random line&nbsp;</i>"]
 	];
