@@ -50,8 +50,7 @@ for(var i=0;i<otherNames.length;i++){
 	
 	//Alternate otherNames
 	td = document.createElement('td');
-	var cleanNames = otherNames[i].join(),
-	cleanNames = cleanNames.replace(/_/g, " ").replace(/,/g, ", ");
+	var cleanNames = otherNames[i].join(", ").replace(/_/g, " ");
 	td.innerHTML = cleanNames;
 	tr.appendChild(td);
 	
@@ -60,19 +59,18 @@ for(var i=0;i<otherNames.length;i++){
 		//Random keyword
 		tr = document.createElement('tr'),
 		copycell = document.createElement('td'),
-		copycell.innerHTML = `<span id="` + `random` + `_text" class="copy-field">` + `random` + `</span><span class="hero__placeholder"></span><button class="cp_btn" onclick="copyToClipboard('` + `random` + `_text')">Copy</button>`;
+		copycell.innerHTML = `<span id="` + randomNames[0][0] + `_text" class="copy-field">` + randomNames[0][0] + `</span><span class="hero__placeholder"></span><button class="cp_btn" onclick="copyToClipboard('` + randomNames[0][0] + `_text')">Copy</button>`;
 		tr.appendChild(copycell);
 
 		//Random quote/explanation
 		td = document.createElement('td');
-		td.innerHTML='<span id="message" class="default">' + '<i>Plays a random line&nbsp;</i>' + '</span>';
+		td.innerHTML='<span id="message" class="default">' + randomQuotes[0] + '</span>';
 		tr.appendChild(td);
 		tbody.appendChild(tr);
 		
 		//Random otherNames
 		td = document.createElement('td');
-		var cleanNames = otherNames[i].join(),
-		cleanNames = "random, rando";
+		var cleanNames = randomNames[0].join(", ");
 		td.innerHTML = cleanNames;
 		tr.appendChild(td);
 	}
@@ -122,8 +120,7 @@ for(var i=1;i<heroNames.length;i++){
 	firstRow.appendChild(td);
 	//Alternate hero names on first row
 	altNames = document.createElement('td');
-	var cleanNames = heroNames[i].join(),
-	cleanNames = cleanNames.replace(/_/g, " ").replace(/,/g, ", ");
+	var cleanNames = heroNames[i].join(", ").replace(/_/g, " ");
 	altNames.innerHTML = cleanNames;
 	altNames.setAttribute("id", heroNames[i][0]+"_aliases");
 	altNames.setAttribute("rowspan", "7");

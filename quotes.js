@@ -1121,3 +1121,11 @@ var otherQuotes = [
 		["Noooooo! Oh well."], //Oh Well
 		["Welcome to the family, son."] //Family
 		];
+
+var randomNames = [
+	["random", "rando", "yolo", "rng"]
+	];
+
+var randomQuotes = [
+	["<i>Plays a random line</i>"]
+	];
