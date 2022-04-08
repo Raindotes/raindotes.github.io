@@ -160,7 +160,7 @@ quotes['grandmaster'] = [
 		["Hard on the outside, but with a soft delicious center."], //Clockwerk
 		["You only live ice!"], //Crystal Maiden
 		["You're no peer of the seer."], //Dark Seer
-		["Ugh, fine. I guess you're my little PogChamp. Come here."], //Dark Willow
+		["We're gonna have some fuuuuunnnn."], //Dark Willow
 		["I don't need praise from you."], //Dawnbreaker
 		["If killing you is wrong, I don't want to be right."], //Dazzle
 		["No no. Tsk tsk tsk."], //Death Prophet
@@ -893,7 +893,7 @@ quotes['bronze'] = [
 		["Nice."], //Nyx Assassin
 		["That was skill all right. Pure skill."], //Ogre Magi
 		["Beautiful."], //Omniknight
-		["Well of course we won."], //Oracle
+		["I am shocked. Shocked!"], //Oracle
 		["I have solid intelligence on what is to come."], //Outworld Devourer
 		["Was that intentional? It looked intentional."], //Pangolier
 		["I see you!"], //Phantom Assassin
@@ -976,7 +976,7 @@ quotes['bonus'] = [
 		["That didn't go as I planned."], //Clockwerk
 		["All the wards in the world didn't see that coming!"], //Crystal Maiden
 		["No, I will not calm my beard."], //Dark Seer
-		["We're gonna have some fuuuuunnnn."], //Dark Willow
+		["Ugh, fine. I guess you're my little PogChamp. Come here."], //Dark Willow
 		["What a silly creature. I like you."], //Dawnbreaker
 		["You're in the pink!"], //Dazzle
 		["Welcome, all my ladies, welcome! Come to me!"], //Death Prophet
@@ -1029,7 +1029,7 @@ quotes['bonus'] = [
 		["Broodmotherfuh..."], //Nyx Assassin
 		["We didn't need--- Shut up and say thank you."], //Ogre Magi
 		["I am mortified."], //Omniknight
-		["I am shocked. Shocked!"], //Oracle
+		["Cringe + Ratio."], //Oracle
 		["Hard carry? I hardly cared."], //Outworld Devourer
 		["Where is the fun if there's no chance of death?"], //Pangolier
 		["I don't believe this!"], //Phantom Assassin
