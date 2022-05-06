@@ -1,11 +1,21 @@
+
 <html lang="en">
 <head>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-54725251-1" type="a8ca30811f7e44a2c5bfb4fe-text/javascript"></script>
+<script type="a8ca30811f7e44a2c5bfb4fe-text/javascript">
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'UA-54725251-1');
+</script>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="shortcut icon" href="https://howdoiplay.com/assets/media/icons/favicon.ico">
 <title>Dota Plus Voice Lines</title>
 <link rel="stylesheet" href="./style.css">
-<link rel="stylesheet" href="https://howdoiplay.com/assets/styles/minimap-icons.css">
+<link rel="stylesheet" href="https://howdoiplay.com/assets/styles/minimap-sprites.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 <style>
 .wei 						.herolist__hero__link:before 			{ background: url("https://howdoiplay.com/assets/media/heroes/minimap/icons/custom/antimage_persona.png") no-repeat;   }
@@ -21,15 +31,15 @@
 </head>
 <body>
 <div class="Container" id="Header">
-		<div class="Inner">
-			<h1>Dota Plus Voice Lines</h1>
-			<h2><i>The best channel point reward on Twitch!*</i></h2>
-			<h3><a href="https://twitch.tv/ra1ndotes">*twitch.tv/ra1ndotes</a></h3>
-		</div>
-	</div>
-<script type="text/javascript" src="./quotes.js"></script>
-<script type="text/javascript" src="./table.js"></script>
-<script>
+<div class="Inner">
+<h1>Dota Plus Voice Lines</h1>
+<h2><i>The best channel point reward on Twitch!*</i></h2>
+<h3><a href="https://twitch.tv/tsunami643">*twitch.tv/tsunami643</a></h3>
+</div>
+</div>
+<script type="a8ca30811f7e44a2c5bfb4fe-text/javascript" src="./quotes.js"></script>
+<script type="a8ca30811f7e44a2c5bfb4fe-text/javascript" src="./table.js"></script>
+<script type="a8ca30811f7e44a2c5bfb4fe-text/javascript">
 function filterTable(event) {
     var filter = event.target.value.toUpperCase();
     var rows = document.querySelector("#heroquotes").rows;
@@ -39,6 +49,16 @@ function filterTable(event) {
 		var secondCol = rows[i].cells[1].textContent.toUpperCase();
 		if (firstCol.indexOf(filter) > -1 || secondCol.indexOf(filter) > -1) {
 			rows[i].style.display = "";
+			/*if (rows[i].id.includes("grandmaster") == false)
+			{
+				var filteredHero = rows[i].parentElement.id;
+			}*/
+			//element = rows[i].querySelector();
+			/*console.log(rows[i].id.includes("grandmaster"));
+			var x = rows[i].parentElement.id+"_aliases";
+			rows[i].appendChild(document.getElementById(x));*/
+			//var x = document.getElementById(rows[i]).parentElement.id;
+			//console.log(x);
 		} else {
 			rows[i].style.display = "none";
 		}      
@@ -47,7 +67,7 @@ function filterTable(event) {
 
 document.querySelector('#myInput').addEventListener('keyup', filterTable, false);
 </script>
-<script>
+<script type="a8ca30811f7e44a2c5bfb4fe-text/javascript">
 function copyToClipboard(elementId) {
 
   // Create a "hidden" input
@@ -70,5 +90,6 @@ function copyToClipboard(elementId) {
 
 }
 </script>
+<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="a8ca30811f7e44a2c5bfb4fe-|49" defer=""></script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194" integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw==" data-cf-beacon='{"rayId":"706f8a861f8e7365","version":"2021.12.0","r":1,"token":"a4d081e20ac142429514b4aa64eecf9c","si":100}' crossorigin="anonymous"></script>
 </body>
 </html>
